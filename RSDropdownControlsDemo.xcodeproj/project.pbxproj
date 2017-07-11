@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34CD13081F14B98E00F136BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13071F14B98E00F136BC /* main.m */; };
+		34CD130B1F14B98E00F136BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD130A1F14B98E00F136BC /* AppDelegate.m */; };
+		34CD130E1F14B98E00F136BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD130D1F14B98E00F136BC /* ViewController.m */; };
+		34CD13111F14B98E00F136BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34CD130F1F14B98E00F136BC /* Main.storyboard */; };
+		34CD13131F14B98E00F136BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34CD13121F14B98E00F136BC /* Assets.xcassets */; };
+		34CD13161F14B98E00F136BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34CD13141F14B98E00F136BC /* LaunchScreen.storyboard */; };
+		34CD13211F14B98E00F136BC /* RSDropdownControlsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13201F14B98E00F136BC /* RSDropdownControlsDemoTests.m */; };
+		34CD132C1F14B98E00F136BC /* RSDropdownControlsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD132B1F14B98E00F136BC /* RSDropdownControlsDemoUITests.m */; };
+		34CD133C1F14B9BC00F136BC /* RSDropdownControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD133B1F14B9BC00F136BC /* RSDropdownControls.m */; };
+		34CD133F1F14B9C800F136BC /* arrow_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34CD133E1F14B9C800F136BC /* arrow_up@2x.png */; };
+		34CD13421F14BF1300F136BC /* CreatedByCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13411F14BF1300F136BC /* CreatedByCodeViewController.m */; };
+		34CD13451F14BF2200F136BC /* CreatedByXIBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13441F14BF2200F136BC /* CreatedByXIBViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34CD131D1F14B98E00F136BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34CD12FB1F14B98E00F136BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34CD13021F14B98E00F136BC;
+			remoteInfo = RSDropdownControlsDemo;
+		};
+		34CD13281F14B98E00F136BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34CD12FB1F14B98E00F136BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34CD13021F14B98E00F136BC;
+			remoteInfo = RSDropdownControlsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34CD13031F14B98E00F136BC /* RSDropdownControlsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSDropdownControlsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CD13071F14B98E00F136BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34CD13091F14B98E00F136BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34CD130A1F14B98E00F136BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34CD130C1F14B98E00F136BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34CD130D1F14B98E00F136BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34CD13101F14B98E00F136BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34CD13121F14B98E00F136BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34CD13151F14B98E00F136BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34CD13171F14B98E00F136BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34CD131C1F14B98E00F136BC /* RSDropdownControlsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSDropdownControlsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CD13201F14B98E00F136BC /* RSDropdownControlsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSDropdownControlsDemoTests.m; sourceTree = "<group>"; };
+		34CD13221F14B98E00F136BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34CD13271F14B98E00F136BC /* RSDropdownControlsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSDropdownControlsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CD132B1F14B98E00F136BC /* RSDropdownControlsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSDropdownControlsDemoUITests.m; sourceTree = "<group>"; };
+		34CD132D1F14B98E00F136BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34CD133A1F14B9BC00F136BC /* RSDropdownControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDropdownControls.h; sourceTree = "<group>"; };
+		34CD133B1F14B9BC00F136BC /* RSDropdownControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDropdownControls.m; sourceTree = "<group>"; };
+		34CD133E1F14B9C800F136BC /* arrow_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_up@2x.png"; sourceTree = "<group>"; };
+		34CD13401F14BF1300F136BC /* CreatedByCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatedByCodeViewController.h; sourceTree = "<group>"; };
+		34CD13411F14BF1300F136BC /* CreatedByCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatedByCodeViewController.m; sourceTree = "<group>"; };
+		34CD13431F14BF2200F136BC /* CreatedByXIBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatedByXIBViewController.h; sourceTree = "<group>"; };
+		34CD13441F14BF2200F136BC /* CreatedByXIBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatedByXIBViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34CD13001F14B98E00F136BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CD13191F14B98E00F136BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CD13241F14B98E00F136BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34CD12FA1F14B98E00F136BC = {
+			isa = PBXGroup;
+			children = (
+				34CD13051F14B98E00F136BC /* RSDropdownControlsDemo */,
+				34CD131F1F14B98E00F136BC /* RSDropdownControlsDemoTests */,
+				34CD132A1F14B98E00F136BC /* RSDropdownControlsDemoUITests */,
+				34CD13041F14B98E00F136BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34CD13041F14B98E00F136BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34CD13031F14B98E00F136BC /* RSDropdownControlsDemo.app */,
+				34CD131C1F14B98E00F136BC /* RSDropdownControlsDemoTests.xctest */,
+				34CD13271F14B98E00F136BC /* RSDropdownControlsDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34CD13051F14B98E00F136BC /* RSDropdownControlsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				34CD13391F14B9A000F136BC /* RSDropdownControls */,
+				34CD13091F14B98E00F136BC /* AppDelegate.h */,
+				34CD130A1F14B98E00F136BC /* AppDelegate.m */,
+				34CD130C1F14B98E00F136BC /* ViewController.h */,
+				34CD130D1F14B98E00F136BC /* ViewController.m */,
+				34CD13401F14BF1300F136BC /* CreatedByCodeViewController.h */,
+				34CD13411F14BF1300F136BC /* CreatedByCodeViewController.m */,
+				34CD13431F14BF2200F136BC /* CreatedByXIBViewController.h */,
+				34CD13441F14BF2200F136BC /* CreatedByXIBViewController.m */,
+				34CD130F1F14B98E00F136BC /* Main.storyboard */,
+				34CD13121F14B98E00F136BC /* Assets.xcassets */,
+				34CD13141F14B98E00F136BC /* LaunchScreen.storyboard */,
+				34CD13171F14B98E00F136BC /* Info.plist */,
+				34CD13061F14B98E00F136BC /* Supporting Files */,
+			);
+			path = RSDropdownControlsDemo;
+			sourceTree = "<group>";
+		};
+		34CD13061F14B98E00F136BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34CD13071F14B98E00F136BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34CD131F1F14B98E00F136BC /* RSDropdownControlsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				34CD13201F14B98E00F136BC /* RSDropdownControlsDemoTests.m */,
+				34CD13221F14B98E00F136BC /* Info.plist */,
+			);
+			path = RSDropdownControlsDemoTests;
+			sourceTree = "<group>";
+		};
+		34CD132A1F14B98E00F136BC /* RSDropdownControlsDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34CD132B1F14B98E00F136BC /* RSDropdownControlsDemoUITests.m */,
+				34CD132D1F14B98E00F136BC /* Info.plist */,
+			);
+			path = RSDropdownControlsDemoUITests;
+			sourceTree = "<group>";
+		};
+		34CD13391F14B9A000F136BC /* RSDropdownControls */ = {
+			isa = PBXGroup;
+			children = (
+				34CD133A1F14B9BC00F136BC /* RSDropdownControls.h */,
+				34CD133B1F14B9BC00F136BC /* RSDropdownControls.m */,
+				34CD133D1F14B9C800F136BC /* Resources */,
+			);
+			path = RSDropdownControls;
+			sourceTree = "<group>";
+		};
+		34CD133D1F14B9C800F136BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34CD133E1F14B9C800F136BC /* arrow_up@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34CD13021F14B98E00F136BC /* RSDropdownControlsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CD13301F14B98E00F136BC /* Build configuration list for PBXNativeTarget "RSDropdownControlsDemo" */;
+			buildPhases = (
+				34CD12FF1F14B98E00F136BC /* Sources */,
+				34CD13001F14B98E00F136BC /* Frameworks */,
+				34CD13011F14B98E00F136BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSDropdownControlsDemo;
+			productName = RSDropdownControlsDemo;
+			productReference = 34CD13031F14B98E00F136BC /* RSDropdownControlsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34CD131B1F14B98E00F136BC /* RSDropdownControlsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CD13331F14B98E00F136BC /* Build configuration list for PBXNativeTarget "RSDropdownControlsDemoTests" */;
+			buildPhases = (
+				34CD13181F14B98E00F136BC /* Sources */,
+				34CD13191F14B98E00F136BC /* Frameworks */,
+				34CD131A1F14B98E00F136BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34CD131E1F14B98E00F136BC /* PBXTargetDependency */,
+			);
+			name = RSDropdownControlsDemoTests;
+			productName = RSDropdownControlsDemoTests;
+			productReference = 34CD131C1F14B98E00F136BC /* RSDropdownControlsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34CD13261F14B98E00F136BC /* RSDropdownControlsDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CD13361F14B98E00F136BC /* Build configuration list for PBXNativeTarget "RSDropdownControlsDemoUITests" */;
+			buildPhases = (
+				34CD13231F14B98E00F136BC /* Sources */,
+				34CD13241F14B98E00F136BC /* Frameworks */,
+				34CD13251F14B98E00F136BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34CD13291F14B98E00F136BC /* PBXTargetDependency */,
+			);
+			name = RSDropdownControlsDemoUITests;
+			productName = RSDropdownControlsDemoUITests;
+			productReference = 34CD13271F14B98E00F136BC /* RSDropdownControlsDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34CD12FB1F14B98E00F136BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = StevenXie;
+				TargetAttributes = {
+					34CD13021F14B98E00F136BC = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7QT42R489Z;
+						ProvisioningStyle = Automatic;
+					};
+					34CD131B1F14B98E00F136BC = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34CD13021F14B98E00F136BC;
+					};
+					34CD13261F14B98E00F136BC = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34CD13021F14B98E00F136BC;
+					};
+				};
+			};
+			buildConfigurationList = 34CD12FE1F14B98E00F136BC /* Build configuration list for PBXProject "RSDropdownControlsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34CD12FA1F14B98E00F136BC;
+			productRefGroup = 34CD13041F14B98E00F136BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34CD13021F14B98E00F136BC /* RSDropdownControlsDemo */,
+				34CD131B1F14B98E00F136BC /* RSDropdownControlsDemoTests */,
+				34CD13261F14B98E00F136BC /* RSDropdownControlsDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34CD13011F14B98E00F136BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CD13161F14B98E00F136BC /* LaunchScreen.storyboard in Resources */,
+				34CD13131F14B98E00F136BC /* Assets.xcassets in Resources */,
+				34CD13111F14B98E00F136BC /* Main.storyboard in Resources */,
+				34CD133F1F14B9C800F136BC /* arrow_up@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CD131A1F14B98E00F136BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CD13251F14B98E00F136BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34CD12FF1F14B98E00F136BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CD130E1F14B98E00F136BC /* ViewController.m in Sources */,
+				34CD133C1F14B9BC00F136BC /* RSDropdownControls.m in Sources */,
+				34CD130B1F14B98E00F136BC /* AppDelegate.m in Sources */,
+				34CD13421F14BF1300F136BC /* CreatedByCodeViewController.m in Sources */,
+				34CD13451F14BF2200F136BC /* CreatedByXIBViewController.m in Sources */,
+				34CD13081F14B98E00F136BC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CD13181F14B98E00F136BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CD13211F14B98E00F136BC /* RSDropdownControlsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CD13231F14B98E00F136BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CD132C1F14B98E00F136BC /* RSDropdownControlsDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34CD131E1F14B98E00F136BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34CD13021F14B98E00F136BC /* RSDropdownControlsDemo */;
+			targetProxy = 34CD131D1F14B98E00F136BC /* PBXContainerItemProxy */;
+		};
+		34CD13291F14B98E00F136BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34CD13021F14B98E00F136BC /* RSDropdownControlsDemo */;
+			targetProxy = 34CD13281F14B98E00F136BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34CD130F1F14B98E00F136BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34CD13101F14B98E00F136BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34CD13141F14B98E00F136BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34CD13151F14B98E00F136BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34CD132E1F14B98E00F136BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34CD132F1F14B98E00F136BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34CD13311F14B98E00F136BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSDropdownControlsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSDropdownControlsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34CD13321F14B98E00F136BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSDropdownControlsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSDropdownControlsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34CD13341F14B98E00F136BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSDropdownControlsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSDropdownControlsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSDropdownControlsDemo.app/RSDropdownControlsDemo";
+			};
+			name = Debug;
+		};
+		34CD13351F14B98E00F136BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSDropdownControlsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSDropdownControlsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSDropdownControlsDemo.app/RSDropdownControlsDemo";
+			};
+			name = Release;
+		};
+		34CD13371F14B98E00F136BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSDropdownControlsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSDropdownControlsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSDropdownControlsDemo;
+			};
+			name = Debug;
+		};
+		34CD13381F14B98E00F136BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSDropdownControlsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSDropdownControlsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSDropdownControlsDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34CD12FE1F14B98E00F136BC /* Build configuration list for PBXProject "RSDropdownControlsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CD132E1F14B98E00F136BC /* Debug */,
+				34CD132F1F14B98E00F136BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34CD13301F14B98E00F136BC /* Build configuration list for PBXNativeTarget "RSDropdownControlsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CD13311F14B98E00F136BC /* Debug */,
+				34CD13321F14B98E00F136BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34CD13331F14B98E00F136BC /* Build configuration list for PBXNativeTarget "RSDropdownControlsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CD13341F14B98E00F136BC /* Debug */,
+				34CD13351F14B98E00F136BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34CD13361F14B98E00F136BC /* Build configuration list for PBXNativeTarget "RSDropdownControlsDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CD13371F14B98E00F136BC /* Debug */,
+				34CD13381F14B98E00F136BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34CD12FB1F14B98E00F136BC /* Project object */;
+}
