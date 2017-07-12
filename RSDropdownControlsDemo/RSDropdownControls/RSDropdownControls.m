@@ -60,6 +60,9 @@ CGFloat angleValue(CGFloat angle) {
     // 默认是完成动画的
     _beDone = YES;
     
+    // 默认 最大展示列表行数是4
+    _maxDropdownCount = 4;
+    
     // 初始化UI
     [self.arrowImgBgView addSubview:self.arrowImgView];
     [self addSubview:self.arrowImgBgView];
@@ -112,13 +115,15 @@ CGFloat angleValue(CGFloat angle) {
                          }
                          
                          CGRect frame = self.listTableView.frame;
-                         NSInteger count = MIN(4, self.listArray.count);
-                         frame.size.height = count * self.frame.size.height;
+                         NSInteger count = MIN(self.maxDropdownCount, self.listArray.count);
                          
                          // 防止超出屏幕
                          if (frame.origin.y + frame.size.height > [UIScreen mainScreen].bounds.size.height) {
                              frame.size.height -= frame.origin.y + frame.size.height - [UIScreen mainScreen].bounds.size.height;
+                         } else {
+                             frame.size.height = count * self.frame.size.height;
                          }
+                         
                          [self.listTableView setFrame:frame];
                          
                          self.arrowImgView.transform = CGAffineTransformIdentity;
