@@ -10,6 +10,12 @@
 | 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-11/65983822.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-11/60232326.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-11/68725393.jpg) |
 | 描述 | 通过 storyboard 搭建基本框架 | 使用纯代码创建 | 使用XIB创建 |
 
+## Advantage 框架的优势
+* 1.文件少，代码简洁
+* 2.不依赖任何其他第三方库
+* 3.使用Delegate方式回调，定制性优良
+* 4.同时支持XIB/纯代码方式创建
+* 5.具备较高自定义性
 
 ## Requirements 要求
 * iOS 7+
