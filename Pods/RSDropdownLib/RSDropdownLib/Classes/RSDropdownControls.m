@@ -265,7 +265,12 @@ CGFloat angleValue(CGFloat angle) {
 - (UIImageView *)arrowImgView {
     if (!_arrowImgView) {
         _arrowImgView = [UIImageView new];
-        _arrowImgView.image = [UIImage imageNamed:@"arrow_up.png"];
+        NSString *normalImgName = @"arrow_up@2x.png";
+        NSBundle *curBundle = [NSBundle bundleForClass:self.class];
+        NSString *normalImgPath = [curBundle pathForResource:normalImgName ofType:nil inDirectory:@"RSDropdownLib.bundle"];
+        UIImage *normalImage = [UIImage imageWithContentsOfFile:normalImgPath];
+        
+        _arrowImgView.image = normalImage;
         _arrowImgView.transform = CGAffineTransformRotate(self.arrowImgView.transform, angleValue(-180));
     }
     return _arrowImgView;

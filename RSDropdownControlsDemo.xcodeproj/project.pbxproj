@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0396AFB3A27B4DA6F5985EA0 /* libPods-RSDropdownControlsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 106488A62DD313C81CE66345 /* libPods-RSDropdownControlsDemo.a */; };
 		3451330420899405001D186E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3451330220899405001D186E /* LaunchScreen.storyboard */; };
 		3451330520899405001D186E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3451330320899405001D186E /* Default.png */; };
 		34CD13081F14B98E00F136BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13071F14B98E00F136BC /* main.m */; };
@@ -15,10 +16,10 @@
 		34CD13131F14B98E00F136BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34CD13121F14B98E00F136BC /* Assets.xcassets */; };
 		34CD13211F14B98E00F136BC /* RSDropdownControlsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13201F14B98E00F136BC /* RSDropdownControlsDemoTests.m */; };
 		34CD132C1F14B98E00F136BC /* RSDropdownControlsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD132B1F14B98E00F136BC /* RSDropdownControlsDemoUITests.m */; };
-		34CD133C1F14B9BC00F136BC /* RSDropdownControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD133B1F14B9BC00F136BC /* RSDropdownControls.m */; };
-		34CD133F1F14B9C800F136BC /* arrow_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34CD133E1F14B9C800F136BC /* arrow_up@2x.png */; };
 		34CD13421F14BF1300F136BC /* CreatedByCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13411F14BF1300F136BC /* CreatedByCodeViewController.m */; };
 		34CD13451F14BF2200F136BC /* CreatedByXIBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13441F14BF2200F136BC /* CreatedByXIBViewController.m */; };
+		824C61B19EBA1414E496B7EB /* libPods-RSDropdownControlsDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF1A1EAFF0C56B1AC695BA6 /* libPods-RSDropdownControlsDemoTests.a */; };
+		8E4C90D33CF790AF5C26D910 /* libPods-RSDropdownControlsDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DBDAC42D345586E42CA9A3 /* libPods-RSDropdownControlsDemoUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01DBDAC42D345586E42CA9A3 /* libPods-RSDropdownControlsDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSDropdownControlsDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		106488A62DD313C81CE66345 /* libPods-RSDropdownControlsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSDropdownControlsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13620DB009322F7A2BCC7E08 /* Pods-RSDropdownControlsDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSDropdownControlsDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSDropdownControlsDemoUITests/Pods-RSDropdownControlsDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		333DFA33A898D8EF2E879484 /* Pods-RSDropdownControlsDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSDropdownControlsDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSDropdownControlsDemoUITests/Pods-RSDropdownControlsDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		33F3AE01C33FC03BC575617F /* Pods-RSDropdownControlsDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSDropdownControlsDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSDropdownControlsDemoTests/Pods-RSDropdownControlsDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3451330220899405001D186E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3451330320899405001D186E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		34CD13031F14B98E00F136BC /* RSDropdownControlsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSDropdownControlsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,13 +60,14 @@
 		34CD13271F14B98E00F136BC /* RSDropdownControlsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSDropdownControlsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34CD132B1F14B98E00F136BC /* RSDropdownControlsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSDropdownControlsDemoUITests.m; sourceTree = "<group>"; };
 		34CD132D1F14B98E00F136BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34CD133A1F14B9BC00F136BC /* RSDropdownControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDropdownControls.h; sourceTree = "<group>"; };
-		34CD133B1F14B9BC00F136BC /* RSDropdownControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDropdownControls.m; sourceTree = "<group>"; };
-		34CD133E1F14B9C800F136BC /* arrow_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_up@2x.png"; sourceTree = "<group>"; };
 		34CD13401F14BF1300F136BC /* CreatedByCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatedByCodeViewController.h; sourceTree = "<group>"; };
 		34CD13411F14BF1300F136BC /* CreatedByCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatedByCodeViewController.m; sourceTree = "<group>"; };
 		34CD13431F14BF2200F136BC /* CreatedByXIBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatedByXIBViewController.h; sourceTree = "<group>"; };
 		34CD13441F14BF2200F136BC /* CreatedByXIBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatedByXIBViewController.m; sourceTree = "<group>"; };
+		3CF1A1EAFF0C56B1AC695BA6 /* libPods-RSDropdownControlsDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSDropdownControlsDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5D479DABCBA4361C9EF40F /* Pods-RSDropdownControlsDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSDropdownControlsDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSDropdownControlsDemoTests/Pods-RSDropdownControlsDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC332BA9D059145A515CF2CA /* Pods-RSDropdownControlsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSDropdownControlsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSDropdownControlsDemo/Pods-RSDropdownControlsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B982CFB875D3AB64291E159F /* Pods-RSDropdownControlsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSDropdownControlsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSDropdownControlsDemo/Pods-RSDropdownControlsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0396AFB3A27B4DA6F5985EA0 /* libPods-RSDropdownControlsDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824C61B19EBA1414E496B7EB /* libPods-RSDropdownControlsDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,12 +91,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E4C90D33CF790AF5C26D910 /* libPods-RSDropdownControlsDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DB9AAFE8C21FE38817E7E49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				106488A62DD313C81CE66345 /* libPods-RSDropdownControlsDemo.a */,
+				3CF1A1EAFF0C56B1AC695BA6 /* libPods-RSDropdownControlsDemoTests.a */,
+				01DBDAC42D345586E42CA9A3 /* libPods-RSDropdownControlsDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		34CD12FA1F14B98E00F136BC = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +115,8 @@
 				34CD131F1F14B98E00F136BC /* RSDropdownControlsDemoTests */,
 				34CD132A1F14B98E00F136BC /* RSDropdownControlsDemoUITests */,
 				34CD13041F14B98E00F136BC /* Products */,
+				6E8CECF7EFC34FAF0C0FED7E /* Pods */,
+				1DB9AAFE8C21FE38817E7E49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,7 +133,6 @@
 		34CD13051F14B98E00F136BC /* RSDropdownControlsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				34CD13391F14B9A000F136BC /* RSDropdownControls */,
 				34CD13091F14B98E00F136BC /* AppDelegate.h */,
 				34CD130A1F14B98E00F136BC /* AppDelegate.m */,
 				34CD13401F14BF1300F136BC /* CreatedByCodeViewController.h */,
@@ -154,22 +175,17 @@
 			path = RSDropdownControlsDemoUITests;
 			sourceTree = "<group>";
 		};
-		34CD13391F14B9A000F136BC /* RSDropdownControls */ = {
+		6E8CECF7EFC34FAF0C0FED7E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				34CD133A1F14B9BC00F136BC /* RSDropdownControls.h */,
-				34CD133B1F14B9BC00F136BC /* RSDropdownControls.m */,
-				34CD133D1F14B9C800F136BC /* Resources */,
+				B982CFB875D3AB64291E159F /* Pods-RSDropdownControlsDemo.debug.xcconfig */,
+				AC332BA9D059145A515CF2CA /* Pods-RSDropdownControlsDemo.release.xcconfig */,
+				33F3AE01C33FC03BC575617F /* Pods-RSDropdownControlsDemoTests.debug.xcconfig */,
+				8B5D479DABCBA4361C9EF40F /* Pods-RSDropdownControlsDemoTests.release.xcconfig */,
+				333DFA33A898D8EF2E879484 /* Pods-RSDropdownControlsDemoUITests.debug.xcconfig */,
+				13620DB009322F7A2BCC7E08 /* Pods-RSDropdownControlsDemoUITests.release.xcconfig */,
 			);
-			path = RSDropdownControls;
-			sourceTree = "<group>";
-		};
-		34CD133D1F14B9C800F136BC /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				34CD133E1F14B9C800F136BC /* arrow_up@2x.png */,
-			);
-			path = Resources;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34CD13301F14B98E00F136BC /* Build configuration list for PBXNativeTarget "RSDropdownControlsDemo" */;
 			buildPhases = (
+				72FF3D2667B1CF0C3D958E40 /* [CP] Check Pods Manifest.lock */,
 				34CD12FF1F14B98E00F136BC /* Sources */,
 				34CD13001F14B98E00F136BC /* Frameworks */,
 				34CD13011F14B98E00F136BC /* Resources */,
+				7854A884C58E511404987C87 /* [CP] Embed Pods Frameworks */,
+				7EA91755CBE96B521177F56C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34CD13331F14B98E00F136BC /* Build configuration list for PBXNativeTarget "RSDropdownControlsDemoTests" */;
 			buildPhases = (
+				62C146C5A73667C404EC3472 /* [CP] Check Pods Manifest.lock */,
 				34CD13181F14B98E00F136BC /* Sources */,
 				34CD13191F14B98E00F136BC /* Frameworks */,
 				34CD131A1F14B98E00F136BC /* Resources */,
+				66AE5017F4BA241FEE4BC6A3 /* [CP] Embed Pods Frameworks */,
+				73701AA3435296E070D62D96 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34CD13361F14B98E00F136BC /* Build configuration list for PBXNativeTarget "RSDropdownControlsDemoUITests" */;
 			buildPhases = (
+				1C691B384A3B4F7155221359 /* [CP] Check Pods Manifest.lock */,
 				34CD13231F14B98E00F136BC /* Sources */,
 				34CD13241F14B98E00F136BC /* Frameworks */,
 				34CD13251F14B98E00F136BC /* Resources */,
+				2ACCA9021D4C7A60A8A2B69D /* [CP] Embed Pods Frameworks */,
+				9CA60301083428D40854ABC4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,7 +307,6 @@
 				34CD13131F14B98E00F136BC /* Assets.xcassets in Resources */,
 				3451330420899405001D186E /* LaunchScreen.storyboard in Resources */,
 				34CD13111F14B98E00F136BC /* Main.storyboard in Resources */,
-				34CD133F1F14B9C800F136BC /* arrow_up@2x.png in Resources */,
 				3451330520899405001D186E /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,12 +327,161 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C691B384A3B4F7155221359 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RSDropdownControlsDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2ACCA9021D4C7A60A8A2B69D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSDropdownControlsDemoUITests/Pods-RSDropdownControlsDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62C146C5A73667C404EC3472 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RSDropdownControlsDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66AE5017F4BA241FEE4BC6A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSDropdownControlsDemoTests/Pods-RSDropdownControlsDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72FF3D2667B1CF0C3D958E40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RSDropdownControlsDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73701AA3435296E070D62D96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSDropdownControlsDemoTests/Pods-RSDropdownControlsDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7854A884C58E511404987C87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSDropdownControlsDemo/Pods-RSDropdownControlsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EA91755CBE96B521177F56C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RSDropdownControlsDemo/Pods-RSDropdownControlsDemo-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RSDropdownLib/RSDropdownLib.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RSDropdownLib.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSDropdownControlsDemo/Pods-RSDropdownControlsDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CA60301083428D40854ABC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSDropdownControlsDemoUITests/Pods-RSDropdownControlsDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		34CD12FF1F14B98E00F136BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34CD133C1F14B9BC00F136BC /* RSDropdownControls.m in Sources */,
 				34CD130B1F14B98E00F136BC /* AppDelegate.m in Sources */,
 				34CD13421F14BF1300F136BC /* CreatedByCodeViewController.m in Sources */,
 				34CD13451F14BF2200F136BC /* CreatedByXIBViewController.m in Sources */,
@@ -451,6 +624,7 @@
 		};
 		34CD13311F14B98E00F136BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B982CFB875D3AB64291E159F /* Pods-RSDropdownControlsDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7QT42R489Z;
@@ -463,6 +637,7 @@
 		};
 		34CD13321F14B98E00F136BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC332BA9D059145A515CF2CA /* Pods-RSDropdownControlsDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7QT42R489Z;
@@ -475,6 +650,7 @@
 		};
 		34CD13341F14B98E00F136BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33F3AE01C33FC03BC575617F /* Pods-RSDropdownControlsDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RSDropdownControlsDemoTests/Info.plist;
@@ -487,6 +663,7 @@
 		};
 		34CD13351F14B98E00F136BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B5D479DABCBA4361C9EF40F /* Pods-RSDropdownControlsDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RSDropdownControlsDemoTests/Info.plist;
@@ -499,6 +676,7 @@
 		};
 		34CD13371F14B98E00F136BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 333DFA33A898D8EF2E879484 /* Pods-RSDropdownControlsDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RSDropdownControlsDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -510,6 +688,7 @@
 		};
 		34CD13381F14B98E00F136BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13620DB009322F7A2BCC7E08 /* Pods-RSDropdownControlsDemoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RSDropdownControlsDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
