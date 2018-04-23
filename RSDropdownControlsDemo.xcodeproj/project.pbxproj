@@ -11,7 +11,6 @@
 		3451330520899405001D186E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3451330320899405001D186E /* Default.png */; };
 		34CD13081F14B98E00F136BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13071F14B98E00F136BC /* main.m */; };
 		34CD130B1F14B98E00F136BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD130A1F14B98E00F136BC /* AppDelegate.m */; };
-		34CD130E1F14B98E00F136BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD130D1F14B98E00F136BC /* ViewController.m */; };
 		34CD13111F14B98E00F136BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34CD130F1F14B98E00F136BC /* Main.storyboard */; };
 		34CD13131F14B98E00F136BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34CD13121F14B98E00F136BC /* Assets.xcassets */; };
 		34CD13211F14B98E00F136BC /* RSDropdownControlsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD13201F14B98E00F136BC /* RSDropdownControlsDemoTests.m */; };
@@ -46,8 +45,6 @@
 		34CD13071F14B98E00F136BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		34CD13091F14B98E00F136BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		34CD130A1F14B98E00F136BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		34CD130C1F14B98E00F136BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		34CD130D1F14B98E00F136BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		34CD13101F14B98E00F136BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34CD13121F14B98E00F136BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34CD13171F14B98E00F136BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -117,8 +114,6 @@
 				34CD13391F14B9A000F136BC /* RSDropdownControls */,
 				34CD13091F14B98E00F136BC /* AppDelegate.h */,
 				34CD130A1F14B98E00F136BC /* AppDelegate.m */,
-				34CD130C1F14B98E00F136BC /* ViewController.h */,
-				34CD130D1F14B98E00F136BC /* ViewController.m */,
 				34CD13401F14BF1300F136BC /* CreatedByCodeViewController.h */,
 				34CD13411F14BF1300F136BC /* CreatedByCodeViewController.m */,
 				34CD13431F14BF2200F136BC /* CreatedByXIBViewController.h */,
@@ -313,7 +308,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34CD130E1F14B98E00F136BC /* ViewController.m in Sources */,
 				34CD133C1F14B9BC00F136BC /* RSDropdownControls.m in Sources */,
 				34CD130B1F14B98E00F136BC /* AppDelegate.m in Sources */,
 				34CD13421F14BF1300F136BC /* CreatedByCodeViewController.m in Sources */,

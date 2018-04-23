@@ -25,7 +25,8 @@
     down.backgroundColor = [UIColor whiteColor];
     down.placeholder = @"点我试试";
     down.listArray = @[@"选择项1",@"选择项2", @"选择项3",@"选择项4",@"选择项5", @"选择项6",@"选择项7",@"选择项8", @"选择项9"];
-    down.frame = CGRectMake(30, 100, 188, 40);
+    down.frame = CGRectMake(0, 0, 188, 40);
+    down.center = self.view.center;
     [self.view addSubview:down];
     self.down = down;
 }
